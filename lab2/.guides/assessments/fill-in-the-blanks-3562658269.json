@@ -1,0 +1,62 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "requests\n",
+		"guidance": "`googlesearch` - library\n`search` - function in the `googlesearch` library\n`stop` - parameter of the `search` function",
+		"instructions": "## Fill in the blanks:",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [
+				"nlp-apibot/example.py",
+				"src/example.py"
+			],
+			"opened": [
+				{
+					"content": "nlp-apibot/example.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "googlesearchLibrary",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "The \u003c\u003c\u003cgooglesearch\u003e\u003e\u003e library has function called \u003c\u003c\u003csearch\u003e\u003e\u003e that takes a user \u003c\u003c\u003cquery\u003e\u003e\u003e and runs a Google search. It also has a parameter called \u003c\u003c\u003cstop\u003e\u003e\u003e that can limit the number of top search results to fetch.",
+		"tokens": {
+			"blank": [
+				"googlesearch",
+				"search",
+				"query",
+				"stop"
+			],
+			"regexPositions": [],
+			"text": [
+				"The ",
+				0,
+				" library has function called ",
+				0,
+				" that takes a user ",
+				0,
+				" and runs a Google search. It also has a parameter called ",
+				0,
+				" that can limit the number of top search results to fetch."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-3562658269",
+	"type": "fill-in-the-blanks"
+}

@@ -1,0 +1,55 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "20730af7-5e6c-92a7-1458-733a74ff8ca5",
+				"answer": "Tokenization -\u003e Lemmatization -\u003e TF-IDF -\u003e Cosine Similarity",
+				"correct": true
+			},
+			{
+				"_id": "7172ba52-cdda-3023-a56c-c3fb33fa4f13",
+				"answer": "Lemmatization -\u003e TF-IDF -\u003e Tokenization -\u003e Cosine Similarity",
+				"correct": false
+			},
+			{
+				"_id": "fb3ebd4d-a08a-9eb4-034f-1a9df30c041c",
+				"answer": "Lemmatization -\u003e Tokenization -\u003e TF-IDF -\u003e Cosine Similarity",
+				"correct": false
+			},
+			{
+				"_id": "ac3bbf92-e91d-b47b-5906-2721a75c8d83",
+				"answer": "TF-IDF -\u003e Lemmatization -\u003e Tokenization -\u003e Cosine Similarity",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "The correct order of steps is:\n\nTokenization -\u003e Lemmatization -\u003e TF-IDF -\u003e Cosine Similarity\n\nWe first need to tokenize the raw text into word tokens that can be fed into the Lemmatizer.\nThen, we tokenize the text into sentence tokens, and pass the lemmatizer and the tokens to the TF-IDF Vectorizer, which is then used to calculate Cosine Similarity",
+		"incorrectPoints": 0,
+		"instructions": "## Select the correct order of steps taken to calculate a Cosine similarity matrix from raw text:",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "nlpRecap",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-808691343",
+	"type": "multiple-choice"
+}

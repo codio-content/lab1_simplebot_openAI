@@ -1,0 +1,10 @@
+{
+	"id": "ecd04b20-b938-a513-0bec-23c34f6897cb",
+	"order": [
+		"Initializing-the-GUI-65a3",
+		"Implementing-functions-for-the-GUI-b3e0",
+		"The-bot-response-function-8cf0"
+	],
+	"title": "A Simple Chatbot in Python",
+	"type": "section"
+}

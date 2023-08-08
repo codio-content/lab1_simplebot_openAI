@@ -1,0 +1,55 @@
+{
+	"source": {
+		"name": "introToChatbots",
+		"showName": false,
+		"instructions": "## Which of the following are true about Chatbots?\n\n**Hint:** There may be more than one correct answer.",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "fbf54458-5911-2361-4e4a-b82ecfc20a38",
+				"correct": false,
+				"answer": "They have to be Machine Learning based."
+			},
+			{
+				"_id": "d3599522-d99d-2971-1423-5e1bcfc74602",
+				"correct": false,
+				"answer": "They use Speech Recognition"
+			},
+			{
+				"_id": "8d5ae09c-354d-e086-3704-5c7160c45c41",
+				"correct": true,
+				"answer": "They use Natural Language Generation to respond."
+			},
+			{
+				"_id": "e21d0c45-f39a-aad2-6f8f-2d8bcd7a430f",
+				"correct": true,
+				"answer": "Chatbots can be very simple and hard-coded or AI-based and sophisticated."
+			}
+		],
+		"guidance": "Chatbots don't have to be ML-based. They can be as simple as a program comprised of a set of **hard-coded rules**, to very sophisticated **AI-based** chatbots that deliver **personalized responses** and learn as they go.\n\nHighly sophisticated Chatbots that use pre-trained language models also use Natural Language Generation to deliver responses.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "multiple-choice-3592873751",
+	"type": "multiple-choice"
+}

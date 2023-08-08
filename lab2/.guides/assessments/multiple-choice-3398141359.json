@@ -1,0 +1,69 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "1774baeb-7037-1dbf-5af8-063978770f3d",
+				"answer": "The matrix after argsort has only 1 row.\n`[0][-2]` fetches the second highest value, that corresponds to the sentence with the highet similarity score.",
+				"correct": true
+			},
+			{
+				"_id": "18bf6fc9-86cb-1265-947d-6a40244721fd",
+				"answer": "`[-2]` fetches the second value in the matrix after argsort()",
+				"correct": false
+			},
+			{
+				"_id": "9806e9e8-fe34-7b37-3edc-9e2bbfb5ae8f",
+				"answer": "`[0][-2]` fetches the value from that's indexed in the first row, second last column of the Cosine Similarity matrix that has multiple rows.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "We've included the `user_input` in the sentence tokens. So the highest value in the cosine similarity matrix will be the `user_input` with itself. That's why we want the second highest value.",
+		"incorrectPoints": 0,
+		"instructions": "## Reading Question\n`idx = cosine_sim_matrix.argsort()[0][-2]`\nIn the above step to calculate Cosine Similarity, why did we pass `-2`, a negative integer for indexing?",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"src/chatbot_gui.py",
+				"src/api_bot.py"
+			],
+			"opened": [
+				{
+					"content": "https://{{domain3050}}/",
+					"panelNumber": 1,
+					"type": "preview"
+				},
+				{
+					"content": "src/chatbot_gui.py",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "src/api_bot.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "apiBotFinal",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-3398141359",
+	"type": "multiple-choice"
+}

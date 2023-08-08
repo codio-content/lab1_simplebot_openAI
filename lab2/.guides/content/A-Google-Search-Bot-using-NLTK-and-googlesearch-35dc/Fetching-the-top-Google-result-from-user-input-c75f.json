@@ -1,0 +1,29 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "nlp-apibot/chatbot_gui.py"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "nlp-apibot/api_bot.py"
+		}
+	],
+	"id": "c75f6b44-4e56-9caa-7b94-a8bcbaf61835",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Fetching the top Google result from user input",
+	"type": "page"
+}

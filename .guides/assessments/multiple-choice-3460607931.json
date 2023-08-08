@@ -1,0 +1,77 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3460607931",
+	"source": {
+		"name": "Code Comprehension",
+		"showName": false,
+		"instructions": "**How does the send function work in the given code?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "00d3aa65-38fc-6bb3-65c0-c1e31a737a1e",
+				"correct": true,
+				"answer": " It displays the user's input and bot's response on the chat interface."
+			},
+			{
+				"_id": "42ae4faa-c1c4-dfab-feb2-a58a13a98d00",
+				"correct": false,
+				"answer": "It takes the user's input and sends it to the GPT-3 model"
+			},
+			{
+				"_id": "a72a07fc-c071-2daa-1f4b-55926fa56464",
+				"correct": false,
+				"answer": "It opens and closes the chat interface."
+			},
+			{
+				"_id": "d3d3c112-3ade-8480-c4bb-56c1b7e6ca56",
+				"correct": false,
+				"answer": "It clears the chat interface.\n\n"
+			}
+		],
+		"guidance": "The send function takes the user's input from the text entry box, generates a response from the bot using the `get_bot_response` function, and then calls `create_and_insert_user_frame` and `create_and_insert_bot_frame` to display the user's input and bot's response on the chat interface.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": false,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"test.py",
+				"simplebot.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "test.py"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 1,
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "simplebot.py"
+				},
+				{
+					"type": "terminal",
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

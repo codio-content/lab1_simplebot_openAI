@@ -1,0 +1,45 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"grader": "1",
+		"guidance": "The first step is the function definition and initializing the `bot_response` variable. Next, we start our conditionals, in the following order, and finish by returning the `bot_response`:\n\n```python\ndef get_bot_response(user_input):\n  bot_response = \"\"\n  if(user_input == \"How was your day?\"):\n    bot_response = \"It was great!\"\n  elif(user_input == \"hi\" or user_input == \"hey\" or user_input == \"hello\"):\n    bot_response = \"Hello there! How are you?\"\n  else:\n    bot_response = \"I'm sorry, I don't understand...\"      \n  return bot_response\n```",
+		"initial": "def get_bot_response(user_input):\n  bot_response = \u0026quot;\u0026quot;\n  if(user_input == \u0026quot;How was your day?\u0026quot;):\n    bot_response = \u0026quot;It was great!\u0026quot;\n  elif(user_input == \u0026quot;hi\u0026quot; or user_input == \u0026quot;hey\u0026quot; or user_input == \u0026quot;hello\u0026quot;):\n    bot_response = \u0026quot;Hello there! How are you?\u0026quot;\n  else:\n    bot_response = \u0026quot;I\u0026#039;m sorry, I don\u0026#039;t understand...\u0026quot;      \n  return bot_response",
+		"instructions": "## Re-arrange the blocks below to create a working `get_bot_response` function.\n\n**Remember indention matters!** Indent a code block by dragging it to the right.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"nlp-simplebot/simplebot.py",
+				"src/simplebot.py"
+			],
+			"opened": [
+				{
+					"content": "nlp-simplebot/simplebot.py",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "https://{{domain3050}}/",
+					"panelNumber": 1,
+					"type": "preview"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			]
+		},
+		"name": "theBotResponseFunction",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true}",
+		"points": 20,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "parsons-puzzle-3277326683",
+	"type": "parsons-puzzle"
+}

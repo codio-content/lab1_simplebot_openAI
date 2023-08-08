@@ -1,0 +1,21 @@
+{
+	"id": "7d7865f2-814b-446a-a7cd-20875e0722f2",
+	"title": "Pushing to GitHub",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "#terminal: clear",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels-tree"
+}

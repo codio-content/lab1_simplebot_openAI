@@ -1,0 +1,22 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": true,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Learning-Objectives-b7bf",
+		"Introduction-to-Chatbots-065b",
+		"Connecting-to-GitHub-3d3e",
+		"A-Simple-Chatbot-in-Python-ecd0",
+		"A-Simple-Chatbot-using-NLTK-545d"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "Lab 1: Simple Bot",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

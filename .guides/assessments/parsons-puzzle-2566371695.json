@@ -1,0 +1,45 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"grader": "1",
+		"guidance": "We start by importing all the libraries we need:\n```python\nimport nltk\nimport requests\n\nfrom googlesearch import search\nfrom lxml import html\nfrom bs4 import BeautifulSoup\n```\n\nNext, we will use the `googlesearch` and the Python `requests` libraries to fetch the webpage of the top Google search result\n\n```python\ngoogle_search_results = list(search(\"When was Netflix founded?\", stop=3, pause=1))\nwebpage = requests.get(google_search_results[0])\n```\n\nFinally, we use `html`, `lxml` and `BeautifulSoup` to extract the text from the webpage and generate the corpus\n\n```python\nwebpage_tree = html.fromstring(webpage.content)\nwebpage_soup = BeautifulSoup(webpage.content, \"lxml\")\nall_p_list = webpage_soup.findAll('p')\ngoogle_search_corpus = \"\"\nfor p_element in all_p_elements:\n  google_search_corpus += '\\n' + ''.join(p_element.findAll(text = True))\n```",
+		"initial": "import nltk \\nimport requests \\n\\nfrom googlesearch import search \\nfrom lxml import html \\nfrom bs4 import BeautifulSoup\ngoogle_search_results = list(search(\u0026quot;When was Netflix founded?\u0026quot;, stop=3, pause=1))\nwebpage = requests.get(google_search_results[0])\nwebpage_tree = html.fromstring(webpage.content) \\nwebpage_soup = BeautifulSoup(webpage.content, \u0026quot;lxml\u0026quot;)\nall_p_list = webpage_soup.findAll(\u0026#039;p\u0026#039;)\ngoogle_search_corpus = \u0026quot;\u0026quot;\nfor p_element in all_p_elements:\n  google_search_corpus += \u0026#039;\\n\u0026#039; + \u0026#039;\u0026#039;.join(p_element.findAll(text = True))",
+		"instructions": "## Re-arrange the blocks below to fetch all the text from the top Google search result.\n\n**Remember indention matters!** Indent a code block by dragging it to the right.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"src/chatbot_gui.py",
+				"src/api_bot.py"
+			],
+			"opened": [
+				{
+					"content": "src/chatbot_gui.py",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "src/api_bot.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			]
+		},
+		"name": "fetchingTheTopResult",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true}",
+		"points": 20,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "parsons-puzzle-2566371695",
+	"type": "parsons-puzzle"
+}

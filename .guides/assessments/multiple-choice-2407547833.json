@@ -1,0 +1,68 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "14871a88-41f2-32dc-5971-a6bdae5ff639",
+				"answer": "The `Chat` class from `nltk.chat.util` initializes a chatbot",
+				"correct": true
+			},
+			{
+				"_id": "7f39e564-10df-fcf3-8942-ef667fb9ac6e",
+				"answer": "The `Chat.converse()` method can be used with a GUI.",
+				"correct": false
+			},
+			{
+				"_id": "9f579233-6813-6a76-470b-148993ccc6f7",
+				"answer": "The `Chat.respond()` function takes care of the regex pattern matching in the background, and returns the appropriate bot response.",
+				"correct": true
+			},
+			{
+				"_id": "045603a1-1731-bf48-9115-c3729b7b5b6b",
+				"answer": "The `Chat.converse()` method does removes punctuation and calls the `respond()` function.",
+				"correct": true
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "The Chat.converse() method is meant to be used for running a Chatbot on the terminal.",
+		"incorrectPoints": 0,
+		"instructions": "## Which of the following are TRUE about the `nltk` Chat utility?\n\n**Hint:** There may be more than one correct answer.",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"src/simplebot_nltk.py"
+			],
+			"opened": [
+				{
+					"content": "src/simplebot_nltk.py",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "https://{{domain3050}}/",
+					"panelNumber": 1,
+					"type": "preview"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": true,
+		"name": "nltkChat",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-2407547833",
+	"type": "multiple-choice"
+}

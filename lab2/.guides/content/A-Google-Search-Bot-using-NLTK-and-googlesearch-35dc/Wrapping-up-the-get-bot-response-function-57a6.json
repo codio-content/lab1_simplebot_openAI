@@ -1,0 +1,34 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: https://{{domain3050}}/"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "nlp-apibot/chatbot_gui.py"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "nlp-apibot/api_bot.py"
+		}
+	],
+	"id": "57a62a8b-c58f-7fcf-433b-d7096ad4cd10",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Wrapping up the get_bot_response function",
+	"type": "page"
+}

@@ -1,0 +1,63 @@
+{
+	"source": {
+		"name": "sendButton",
+		"showName": false,
+		"instructions": "## Which of the following are TRUE about the `sendButton` and the `send()` function?\n\n**Hint:** There may be more than one correct answer.",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "71996ff1-e001-de44-8eb1-40849e711e38",
+				"correct": true,
+				"answer": "`sendButton.bind(\"<Button-1>\", send)` binds the `sendButton` to the `send` function"
+			},
+			{
+				"_id": "667e7622-31c0-ab1d-9285-82fd68419d1d",
+				"correct": false,
+				"answer": "We cannot bind a keyboard key to the `sendButton`"
+			},
+			{
+				"_id": "df1074f1-1d82-74b6-11fa-0e6a06d1b67c",
+				"correct": false,
+				"answer": "The `send()` function doesn't accept user input"
+			},
+			{
+				"_id": "35809736-c3f8-ea65-6147-828a820281b0",
+				"correct": true,
+				"answer": "The `send()` function inserts the `user_input` and the `bot_response` in the `chatWindow`"
+			}
+		],
+		"guidance": "The `sendButton` can be bound to both, the `send()` function and a keyboard key.\n\nIt accepts `user_input`, fetches the `bot_response` and inserts them both in the `chatWindow`",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"simplebot.py",
+				"src/simplebot.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "simplebot.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "multiple-choice-2711248205",
+	"type": "multiple-choice"
+}

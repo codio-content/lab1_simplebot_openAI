@@ -1,0 +1,55 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "2e7ca565-d17a-e5bf-8952-80fa39bfe2d8",
+				"answer": "A corpus is a large and structured set of text documents.",
+				"correct": true
+			},
+			{
+				"_id": "58b0861a-6b7a-f05e-e8a9-a41bc2a796ae",
+				"answer": "A corpus can be anywhere between thousands to millions of words.",
+				"correct": true
+			},
+			{
+				"_id": "c3848a3c-2b0f-8d82-a1ae-5c9d24941793",
+				"answer": "A chatbot corpora cannot be built/trained by manually copy-pasting data into a .txt file",
+				"correct": false
+			},
+			{
+				"_id": "2817e327-1022-d9eb-3dfe-adebceae89d4",
+				"answer": "Chatbot corpora can only be built/trained on a large conversational dataset.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "Chatbot corpora can be built by manually copy pasting data into a text file. \nIt can also be trained on any form of data (for eg. wikipedia pages, textbooks, large conversational datasets, etc) depending on the use case.",
+		"incorrectPoints": 0,
+		"instructions": "## Which of the following are TRUE about chatbot corpora?\n\n**Hint:** There may be more than one correct answer.",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": true,
+		"name": "chatbotCorpus",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-3849590542",
+	"type": "multiple-choice"
+}

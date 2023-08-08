@@ -1,0 +1,27 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "#preview: https://{{domain3050}}/",
+			"panel": 1,
+			"action": "open"
+		},
+		{
+			"path": "simplebot.py",
+			"action": "open"
+		}
+	],
+	"id": "8cf089ac-2029-9806-1841-e4e3f8f1549e",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "The bot response function",
+	"type": "page",
+	"layout": "3-cell"
+}

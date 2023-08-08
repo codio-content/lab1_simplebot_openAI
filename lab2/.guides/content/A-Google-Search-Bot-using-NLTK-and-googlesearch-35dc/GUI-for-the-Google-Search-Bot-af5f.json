@@ -1,0 +1,24 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "nlp-apibot/chatbot_gui.py"
+		}
+	],
+	"id": "af5f97ca-7a5e-114e-4265-6551639c44b7",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "GUI for the Google Search Bot",
+	"type": "page"
+}

@@ -1,0 +1,64 @@
+{
+	"source": {
+		"name": "tkinterGUI",
+		"showName": false,
+		"instructions": "## Look at our code, which of the following is TRUE about the `tkinter` GUI ?",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "3555a714-88f8-9ed3-ccc9-d9affa81839d",
+				"correct": false,
+				"answer": "The text in a tkinter `ScrolledText` component cannot be right or left justified."
+			},
+			{
+				"_id": "f1ffb127-c246-1ed9-5e4c-2dfd6399d1ab",
+				"correct": true,
+				"answer": "The `.place` function is used to place a component (eg. button, textBox, etc.) on the base GUI component/window."
+			},
+			{
+				"_id": "07408f43-8fce-4052-185a-08d751aa906f",
+				"correct": false,
+				"answer": "The size of the base GUI component/window cannot be changed."
+			}
+		],
+		"guidance": "The text in a tkinter `ScrolledText` component can be right or left justified. This can be done by using `.tag_configure('tag-left', justify='left')` on the `ScrolledText` object.\n\nThe size of the base GUI component/window can also be changed by using the `.geometry()` function.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"simplebot.py",
+				"nlp-simplebot/simplebot.py",
+				"src/simplebot.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "simplebot.py"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 1,
+					"content": "https://{{domain3050}}/"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "multiple-choice-3449196981",
+	"type": "multiple-choice"
+}

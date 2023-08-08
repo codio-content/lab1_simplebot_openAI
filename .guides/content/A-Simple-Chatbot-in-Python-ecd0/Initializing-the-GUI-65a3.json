@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "simplebot.py",
+			"action": "open"
+		}
+	],
+	"id": "65a3081d-9c26-46b9-e661-eb3081d2f77f",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Initializing the GUI",
+	"type": "page"
+}

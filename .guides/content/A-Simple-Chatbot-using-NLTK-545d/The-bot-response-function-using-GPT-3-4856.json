@@ -1,0 +1,36 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "test.py",
+			"action": "open"
+		},
+		{
+			"path": "#preview: https://{{domain3050}}/",
+			"panel": 1,
+			"action": "open"
+		},
+		{
+			"path": "simplebot.py",
+			"panel": 1,
+			"action": "open"
+		},
+		{
+			"path": "#terminal: ",
+			"action": "open"
+		}
+	],
+	"id": "48561c52-c571-7b9e-f136-09c338044155",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "The bot response function using GPT-3",
+	"type": "page"
+}

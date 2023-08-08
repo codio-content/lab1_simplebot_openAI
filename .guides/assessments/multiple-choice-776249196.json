@@ -1,0 +1,59 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "9cebaabe-1dab-0fa9-1e43-d93298a47087",
+				"answer": "`baseWindow.mainloop()`",
+				"correct": true
+			},
+			{
+				"_id": "0f3d7f50-ceb2-b542-0803-26a269956d92",
+				"answer": "`baseWindow = Tk()`",
+				"correct": false
+			},
+			{
+				"_id": "24fd2d87-c5a9-e787-56f5-6369b2a02620",
+				"answer": "`baseWindow.place(x=1, y=1)`",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "`baseWindow = Tk()` initializes the main `tkinter` window\n`baseWindow.place(x=1, y=1)` places the window on the display at the specified co-ordinates.",
+		"incorrectPoints": 0,
+		"instructions": "## Let `baseWindow` be the main `tkinter` GUI window that contains everything. How does one runs this and all the components to create the GUI ? ",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"nlp-apibot/chatbot_gui.py",
+				"src/chatbot_gui.py"
+			],
+			"opened": [
+				{
+					"content": "nlp-apibot/chatbot_gui.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "chatbotGUI",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-776249196",
+	"type": "multiple-choice"
+}

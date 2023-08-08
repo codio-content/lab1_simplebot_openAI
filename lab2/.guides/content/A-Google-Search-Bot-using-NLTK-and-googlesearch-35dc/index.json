@@ -1,0 +1,14 @@
+{
+	"id": "35dc8b07-022d-1aa7-95a9-3e4610e48e97",
+	"order": [
+		"Chatbot-corpus-and-APIs-26c7",
+		"APIs--requests-and-googlesearch-ec21",
+		"GUI-for-the-Google-Search-Bot-af5f",
+		"Fetching-the-top-Google-result-from-user-input-c75f",
+		"Recap--Text-preprocessing--TFIDF-and-Cosine-Similarity-d804",
+		"Wrapping-up-the-get-bot-response-function-57a6",
+		"Pushing-to-Github-ebf5"
+	],
+	"title": "A Google Search Bot using NLTK and googlesearch",
+	"type": "section"
+}
